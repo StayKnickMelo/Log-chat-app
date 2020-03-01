@@ -21,26 +21,26 @@ const LogItem = (props) => {
 
   }
 
-  const onDelete = ()=> {
+  const onDelete = () => {
     deleteLog(log._id);
-    M.toast({ html: 'Log Deleted'});
+    M.toast({ html: 'Log Deleted' });
 
   }
 
   return (
-    <li className='collection-item'>
-      <div>
+    <li className='collection-item '>
+      <div >
         <a onClick={onClick} href="#edit-log-modal" className={`modal-trigger ${log.attention && 'red-text'}`}>{log.message}</a>
         <span className="grey-text">
           <br />
-          <span className="black-text">ID #{log.idNum} </span>
+          <span className="black-text customBadge">ID #{log.idNum} </span>
           last updated by
           <span className='black-text'> {log.tech} </span>
           on <Moment format='MMMM Do YYYY, h:mm:ss a'>{log.date}</Moment>
         </span>
-        <a onClick={onDelete} href="#!" className="secondary-content">
-          <i className="material-icons grey-text">delete</i>
-        </a>
+          <a onClick={onDelete} href="#!" className=" secondary-content">
+            <i className="material-icons red-text">delete</i>
+          </a>
       </div>
     </li>
   )
