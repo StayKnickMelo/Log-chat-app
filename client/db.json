@@ -1,0 +1,29 @@
+{
+  "logs": [
+    {
+      "tech": "igor dubov",
+      "message": "station 332 is up and running",
+      "attention": false,
+      "id": 1
+    },
+    {
+      "message": "station 331 is fixed",
+      "tech": "mike spencer",
+      "attention": false,
+      "date": "2020-02-27T09:56:05.584Z",
+      "id": 2
+    }
+  ],
+  "techs": [
+    {
+      "firstName": "igor",
+      "lastName": "dubov",
+      "id": 1
+    },
+    {
+      "firstName": "mike",
+      "lastName": "spencer",
+      "id": 2
+    }
+  ]
+}

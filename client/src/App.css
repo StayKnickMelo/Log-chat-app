@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.fixed-action-btn{
+  /* left: 20px; */
+}
+
+
+
+/* WORKS ? */
+.btn-floating{
+  
+  /* right: 1000px; */
+ 
+}
+
+/* .model-trigger{
+  left:0;
+} */
